@@ -1,0 +1,20 @@
+﻿# RESOUDRE LE PROBLEME DE SAC A DOS PAR L'ALGORITHME GENETIQUE
+
+# 1- Environnement
+- Installer node sur votre PC
+
+# 2- Lancement du projet
+- Ouvrir le dossier du projet dans CMD 
+- lancer le projet avec la commande: 
+    # node index.mjs
+- Si vous voulez insérer ou modifier les objets par défaut dans l'application:
+    # 1- ouvrir le fichier objects.json dans le dossier objects
+    # 2- ajouter des objects ou modifier en remplissant un objet par: 
+        {
+            "id": numéro de l'objet (nombre entier)
+            "value": valeur de l'objet,
+            "weight": poids de l'objet
+        }
+	#n'oubliez pas de mettre tous les objects dans un tableau: []
+    # 3- modifier la capacité du sac dans le fichier index.mjs
+        - modifier la variable "SACK_CAPACITY"
